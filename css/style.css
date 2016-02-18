@@ -1,0 +1,136 @@
+/* HOJA DE ESTILOS */
+
+body {
+    font-family: Calibri;
+    background-color: #BDBDBD;
+}
+
+#cuadro-inicial {
+	width: 65%;
+	height: 110px;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+}
+
+#cuadro-node {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-node {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#cuadro-github {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-github {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#cuadro-atom {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-atom {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#cuadro-markdown {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-markdown {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#cuadro-pandoc {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-pandoc {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#cuadro-cloud9 {
+	width: 70%;
+	height: 5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	border: 2px solid black;
+  	border-radius: 0.6em; 
+	background-color: #CEF6F5;
+	text-align: justify;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#imagen-cloud9-inicio {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+#imagen-cloud9-entorno {
+	width: 650px;
+	height: 400px;
+	border: 1px solid black;
+}
