@@ -1,101 +1,98 @@
-Tutorial NodeJS, Express, Atom, GitHub, Cloud9 y Markdown
-======================================================
+TUTORIAL TAREAS INICIALES
+=========================
 
-## Instalación de NodeJS en Windows
+##### Elaborado por Eduardo Escobar Alberto
 
-Es un intérprete **Javascript** del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.
+## **NODE.JS**
 
-Para empezar a utilizarlo descargar el paquete de instalación para la plataforma windows y seguir los pasos del asistente de instalación de **NodeJS**.
+Node.js es un entorno de programación en la capa del servidor basado en el
+lenguaje de programación Javascript, con E/S de datos en una arquitectura
+orientada a eventos.
 
-![](images/node.png)
+#### Instalación en Mac OS X
+Para la instalación de Node.js en este sistema operativo debemos descargar
+el paquete de instalación desde la página oficial (https://nodejs.org/en/).
+Luego, simplemente seguimos las instrucciones del instalador hasta que nos
+muestre que se ha realizado correctamente.
 
-Abrimos la consola de **NodeJS** y comprobamos que se ha instalado correctamente, aparecerá el siguiente mensaje que indica que se ha instalado.
+![](images/asistente_node.png)
 
-Instalamos el framework **Express** con la consola de **NodeJS** y el siguiente comando:
+## **GITHUB DESKTOP**
+GitHub tiene nueva versión de escritorio disponible para OS X. Gracias a GitHub
+Desktop será más rápido y fácil el poder contribuir a proyectos además de ofrecer
+una experiencia de uso unificada entre Mac y Windows.
 
-**Comando**
+#### Instalación en Mac OS X
+Para llevar a cabo su instalación, únicamente debemos descargarnos el software
+desde la web oficial (https://desktop.github.com/) y avanzar de forma intuitiva
+hasta completar la instalación.
 
-> `npm install express --save`
+![](images/github_desktop.png)
 
-![](images/node2.png)
+## **ATOM**
+Atom es un editor de texto orientado a la elaboración de aplicaciones. Es una
+herramienta desarrollada por Github que se ha publicado como software libre.
 
-## Instalación del editor de texto Atom
+#### Instalación en Mac OS X
+La instalación de dicho editor será sencilla, simplemente debemos descargarnos
+el paquete de instalación desde la página oficial (https://atom.io/) y ejecutarlo
+para obtener el programa a través del asistente.
 
-Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello descargamos el instalador en la página oficial de atom, y a continuación ejecutamos el asistente de instalación.
+![](images/atom.png)
 
-![](images/atom1.png)
+## **MARKDOWN**
+Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de
+texto Atom ya que incorpora por defecto este formato y podremos obtener un live
+preview mientras vamos desarrollando además de poder exportarlo a HTML sin la
+necesidad de usar un conversor adicional.
 
-Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
+#### Sintaxis
 
-**Comando**
-
-> * Markdown preview `ctrl+shift+m`
-> * Markdown export to HTML `Save As HTML`
-
-
-
-## Instalación de GitHub Desktop
-
-GitHub es una plataforma para alojar proyectos utilizando el sistema de control de versiones **Git**. Para instalarlo accedemos a la página oficial de **GitHub** y descargamos el instalador que ejecutaremos posteriormente para iniciar el asistente de instalación.
-
-![](images/git.png)
-
-Una vez instalado configuramos nuestra cuenta de **GitHub** en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de **GitHub**.
-
-## Cloud 9
-
-Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
-
-![](images/cloud.png)
-
-Si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a **Cloud9** para trabajar en él tan solo creando un “`nuevo workspace`” y añadiendo la url *git* del correspondiente repositorio.
-
-![](images/cloud2.png)
-
-Además **Cloud9** permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.
-
-## Markdown
-
-Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto Atom ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.
-
-Sintaxis:
-
-
-Encabezados
-```
+##### Encabezados
 # Encabezado H1
 ## Encabezado H2
 ### Encabezado H3
-```
-Tipografía
-```
+
+###### Tipografía
 **Negrita**
 *Cursiva*
 > Citas
 Parrafo separar por lineas en blanco
 `Codigo`
-```
-Recursos
-```
+
+##### Recursos
 ![Texto imagen](url-imagen)
 * [Links](https://example.com)
-```
-Listas
-```
+
+##### Listas
 1. Lista 1
 2. Lista 2
 
 * Lista 1
 * Lista 2
-```
 
-**Recursos:**
+![](images/markdown.png)
 
-* [NodeJS](https://nodejs.org)
-* [Express](http://expressjs.com)
-* [Atom IDE](https://atom.io)
-* [GitHub Desktop](https://desktop.github.com)
-* [GitHub Pages](https://pages.github.com/)
-* [Cloud 9 IDE](https://c9.io)
-* [Markdown](http://daringfireball.net/projects/markdown/)
-* [Resultado del Markdown HTML](http://alu0100536652.github.io/Tutorial-STW/)
+## **PANDOC**
+Pandoc es un conversor de texto, usado para numerosas funciones, teniendo como
+una de ellas el paso de Markdown a HTML.
+
+#### Instalación en Mac OS X
+Para instalar este conversor, tenemos que descargar el paquete de instalación
+desde la siguiente página (http://www.texts.io/support/0003/). Una vez instalado,
+ejecutamos el siguiente comando desde la terminal: pandoc -o *nombre.md* *nombre.html*
+
+![](images/pandoc.png)
+
+## **CLOUD 9**
+Cloud9 está perfectamente indicado para el trabajo en equipo. Podemos crear un
+workspace o proyecto y compartirlo con otros usuarios de este IDE. A partir de
+entonces podemos compartir no solo el código de los archivos del servidor, sino
+también la consola de comandos.
+
+![](images/cloud9_inicio.png)
+
+Para hacer uso de dicho entorno de desarrollo, debemos únicamente crearnos una
+cuenta en su página web (https://c9.io/).
+
+![](images/cloud9_entorno.png)
